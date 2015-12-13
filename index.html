@@ -38,7 +38,186 @@
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
 
-        <p>Page contents</p>
+        <p>
+</p>
+
+
+<div id="header">
+
+<a href="http://www.cofc.edu"><img src="http://s8.postimg.org/thw7cx0xd/Cof_C_Logo.png" height="50" align="left" hspace="10px"></a>
+
+<h2>
+<a id="data-science-analytics-competition" class="anchor" href="#data-science-analytics-competition" aria-hidden="true"><span class="octicon octicon-link"></span></a><a id="Data-Science-Analytics-Competition" href="Data-Science-Analytics-Competition"></a>Data Science Analytics Competition</h2>
+</div>
+
+<p><br>
+<br></p>
+
+<div id="nav">
+  <a href="#source-material">Source Material</a>
+  <a href="#deliverables">Deliverables</a>
+  <a href="#introduction">Introduction</a>
+  <a href="#approach-and-methodology">Approach and Methodology</a>
+  <a href="#the-dataset-and-its-relationship-to-social-conversation-drivers">Relationships</a>
+  <a href="#documented-code">Documented Code</a>
+  <a href="#examples-of-topic-and-substance">Topics and Substance</a>
+  <a href="#graphical-insights">Graphical Insights</a>
+  <a href="#further-insights">Further Insights</a>
+
+</div>
+
+<p><br>
+  <br>    </p>
+
+<div id="section">
+      <h3>
+<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<h3>
+<a id="contributors-1" class="anchor" href="#contributors-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributors</h3>
+</h3>
+<table>
+  <tr>
+    <td>Donald Cole</td>
+    <td>Neal Sakash</td>
+    <td>Chase Hendley</td>
+    <td>Tyler Walter</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/DonCole/DataScienceAnalyticsComp.git"><img src="https://scontent-mia1-1.xx.fbcdn.net/hphotos-xla1/t31.0-8/411935_109238952586728_1711622452_o.jpg" height="100" align="center" hspace="10px"></a></td>
+    <td><a href="https://github.com/npsakash/Wells-Fargo-Campus-Analytic-Challenge/"><img src="http://s20.postimg.org/jptfki2st/Laura_Dee_Photography_004_Portraits060.jpg" height="100" align="center" hspace="10px"></a></td>
+    <td><a href=""><img src="https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/11173409_797664292665_1440004988091193230_n.jpg?oh=5c909a135311c0fa959524523402d845&amp;oe=5721E379" height="100" align="center" hspace="10px"></a></td>
+    <td><a href=""><img src="https://scontent-mia1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/1555345_10202937329540214_1836364404_n.jpg?oh=2cab45e8593b270a978ae70d6bd7de31&amp;oe=56E500E6" height="100" align="center" hspace="10px"></a></td>
+  </tr>
+</table>    
+<br>
+<h3>
+<a id="source-material" class="anchor" href="#source-material" aria-hidden="true"><span class="octicon octicon-link"></span></a><a id="Source Material" href="#source-material"></a>Source Material</h3>
+<ul>
+<li><a href="https://www.mindsumo.com/contests/wells-fargo">Mindsumo Competition Page</a></li>
+<li><a href="https://d18qs7yq39787j.cloudfront.net/uploads/contestfile/92/4aa8575b843c-2015+Wells+Fargo+Campus+Analytic+Challenge+Metadata.pdf">Metadata.pdf</a></li>
+<li><a href="https://d18qs7yq39787j.cloudfront.net/uploads/contestfile/93/8af8575b213c-2015%2BWells%2BFargo%2BCampus%2BAnalytic%2BChallenge%2BDataset.txt">dataset.txt</a></li>
+</ul>
+
+<h2>
+<a id="deliverables" class="anchor" href="#deliverables" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a id="deliverables" href="#deliverables"></a>Deliverables</h2>
+
+<p>
+<b>Question #1: What financial topics* do consumers discuss on social media and what caused the consumers to post about this topic?</b> 
+<br>
+Deliverable A - Describe your Approach and Methodology. Include a visual representation of your analytic process flow.<br>
+Deliverable B - Discuss the data and its relationship to social conversation drivers.<br>
+Deliverable C - Document your code and reference the analytic process flow-diagram from deliverable A. 
+<br>
+<br>
+<b>Question #2: Are the topics and “substance” consistent across the industry or are they isolated to individual banks? </b>
+<br>
+Deliverable D - Create a list of topics and substance you found<br> 
+Deliverable E - Create a narrative of insights supported by the quantitative results (should include graphs or charts)
+<br>
+</p> 
+<br>
+
+<h2>
+<a id="results" class="anchor" href="#results" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a id="Results" href="#Results"></a>Results</h2>
+<p>
+    <b>The following is taken from the documentation that was submitted by Neal Sakash on behalf of group for the competition.</b>
+</p> 
+<h3>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a id="introduction" href="#introduction"></a>Introduction</h3>
+
+<p>
+    The internet has given rise to many innovations. Many things that would have seemed impossible just five years ago are taken for granted today.  The proliferation of mobile devices and the availability of software that allows users to generate and post content to social media sites has led to a veritable deluge of data. For many industries, having access to the wealth of information on social media sites is a dream come true. 
+
+    Nowhere is this more true than the realm of banking and finance. Being fundamentally speculative endeavors, predicting trends and recognizing changes in the social climate could potentially minimize some risk; given that the information is acquired in a timely fashion. 
+
+    For the competition, each team received the same pipe("|") separated text file containing data accumulated from Twitter and Facebook pertaining to four major financial institutions. In order to obscure potentially damaging information, the data file was parsed prior to distribution and all usernames and the names of corporate entities were reduced to meta-tags. 
+
+    Using readily available, free and open-source software, decreasing the amount of time required to gain an accurate measure of public opinion became the primary goal of the team consisting of Neal Sakash, Chase Hendley, Tyler Walter, and myself 
+</p>
+
+<h3>
+<a id="approach-and-methodology" class="anchor" href="#approach-and-methodology" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a id="approach-and-methodology" href="#pproach-and-methodology%0A"></a>Approach and Methodology
+</h3>
+
+<p>Our initial approach was to utilize the natural language processing (NLP) and sentiment analysis packages available in RStudio to do most of the heavy-lifting when it came to sussing out meaningful observations. As our maiden voyage into the sea of sentiment analysis, we thought it may be easier to focus on customers with negative sentiment. Perusing the dataset, our first impression was that the raw data is incredibly unwieldy.  It became apparent that the data required a thorough scrubbing.
+
+We began by removing ASCII characters, white space, and modifiers in order to sift through the data. While the NLP packages available in RStudio have user-friendly tools packed in, many of them use costly algorithms. Given our team goal of minimizing time, the methods provided by the add-on packages were abandoned in favor of using REGEX expressions to achieve similar goals. Using REGEX reduced the readability of the code, but the overall time reduction observed proved to be a valuable trade off. Another benefit of using REGEX statements was the ability to recover data that was not meant to be changed when the personal and corporate information were being changed to meta-tags. 
+
+After reverting the instances of incidental changes of non-target data, we focused on normalizing and cleansing. After finding the most time efficient means of data cleansing, the team was able to focus on developing efficient algorithms for word frequency, sentiment, and emotion analysis.
+
+In order to quantitatively analyze qualitative things like emotion or sentiment, simple language rules were translated into mathematical procedures in order to assign a list of words some quantitative value. This allowed the emotional "quality" to be mathematically determined by the value of bigrams and trigrams found in posts. The initial analysis of word frequency allowed us to determine some topics that are commonly found on social media with regard to financial institutions. Our initial analysis found approximately 160 words that are frequently used relating to banking and finance.
+</p>
+<p></p>
+
+<h3>
+<a id="the-dataset-and-its-relationship-to-social-conversation-drivers" class="anchor" href="#the-dataset-and-its-relationship-to-social-conversation-drivers" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a id="the-dataset-and-its-relationship-to-social-conversation-drivers" href="#the-dataset-and-its-relationship-to-social-conversation-drivers"></a>The Dataset and Its Relationship to Social Conversation Drivers</h3>
+
+<p>Social conversation drivers is a term that generalizes the conversation of the population. Therefore, it made sense for our team to condense the data into something representing a similar generalization.  While considering only commonly used words sacrifices some precision, it allows for simplistic elimination of terms that would, essentially, be considered outliers. The list of frequently used banking terms allowed our team to narrow the scope of our code and increase efficiency.</p>
+<img src="http://s20.postimg.org/68np5zi5p/Figure_2.png" alt="Figure 2" align="center" height="350">
+
+<h3>
+<a id="-documented-code" class="anchor" href="#-documented-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a id="documented-code" href="#documented-code"></a> Documented Code</h3>
+<p>The code generated by our team is far too large to include on one page. There is a link on the bottom, however, below are some of the more important or interesting code segments from our team code:</p>
+<p>
+<img src="http://s20.postimg.org/u26yaxm0d/Assorted_Code.png" alt="Assorted Code" height="900">
+<br>
+PDF copy of our group's basecode:
+<br>
+</p>
+<a href="https://drive.google.com/file/d/0BwyA_iwDirkEZ1VmQ3hKRlUxbzg/view?usp=sharing">BaseCode</a>
+
+
+<p>Below is a video demostration of our code in action.</p>
+<br>
+    
+<br>
+<br>
+
+
+<h3>
+<a id="-examples-of-topics-and-substance" class="anchor" href="#-examples-of-topics-and-substance" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a id="examples-of-topic-and-substance" href="#examples-of-topic-and-substance"></a> Examples of Topics and Substance</h3>
+
+<p>We created three separate document-feature-matrices (DFM) for each bank meta-tag in order to conduct n-gram modeling. The first matrix is unstemmed and looks for 2 or 3 word terms that are separated by no more than one other word. The second matrix removes words found in a list stop-words and looks for only two terms separated by no more than two other words. Finally, the third matrix is also stemmed and removes all words except the ones in a list of common financial terms. set up to determine sentiment and substance in the dataset.This process more efficiently determines sentiment analysis by having every word in the DFM mapped to a word and minimizing the need to process NULL returns.
+Figure 2 shows some examples of topics discovered, the substance attribute, and corresponding tweet.
+Example Close Account is from the first matrix is from the tweet “twit_hndl_BankB_help Name worst customer service..... i am ready to close account” delivers the topic of Poor Customer Service with a substance tag of Customer Attrition. Example Overdraft Fee was determined from the second matrix with the Facebook post “BankB just charged me an extended overdraft fee.... oh well im just gonna throw that in their face when i close my bank account tomorrow”. The post delivered the topic of Banking Fees or Penalties, with a substance tag of Customer Attrition as well. Examples Please Stop and Planned Parenthood were derived by the sentiment analysis in matrix three. The post from Please Stop is a reaction to a commercial aired by BankA supporting same-sex marriage, while Planned Parenthood is reactionary to BankA’s financial support of the organization following the release of discredited videos against the organization during the summer of 2015. Both posts highlight the topic of Socio-Political Affiliation by the user with again the substance tag of Customer Attrition or possible Boycott.</p>
+<img src="http://s20.postimg.org/6mp15l299/Substance_Tags.png" alt="Figure 3" align="middle" height="900">
+
+<h3>
+<a id="-graphical-insights" class="anchor" href="#-graphical-insights" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a id="graphical-insights" href="#graphical-insights"></a> Graphical Insights</h3>
+<p><img src="http://s20.postimg.org/k65vbag8d/Social_Media_Mentions_Frequency_and_Sentiment_In.png" alt="Figure 4" align="right" width="450">Below is a collection of graphs and charts detailing insight gained from the sentiment analysis and n-gram modeling. Figure 4 shows the overall frequency and ratio of positive or negative sentiment across the four banks. From the dataset provided it appears BankC and BankD showed the highest frequency of sentiment terms used in tweets or posts. The largest ratio between positive and negative sentiment however occurs for BankA, with negative occurrences more than double those of positive. Favorable opinion was found to be most frequent with BankB and BankC, while BankD received an almost equal score.</p>
+<p><img src="http://s20.postimg.org/5od9h1eb1/Comparing_Relative_Volume_and_Substance_of_Comme.png" alt="Figure 5" align="left" width="450">Figure 5 provides a more detailed picture of user sentiment across the four banks by scoring the intensity within the opinions found within the content, such as comparative or superlative modifiers. The scores range from -5.0 being the lowest set of adjectives to 5.0 being the highest. Though BankA may have had a greater amount of negative sentiment, this graph shows that the posts are lacking in the extreme cases of negative sentiment. So customers for BankA may just be reacting as expected to an unpleasant experience, and not necessarily displaying hatred for the institution but mere annoyance. The favorable BankB however shows the largest spread of extreme negative sentiment. These customers display a much higher unfavorable emotion against the bank when they feel wronged or betrayed. BankC shows a pretty balanced spread between the scores, while BankD may have customers who view the bank with more annoyance than contempt.</p>
+<p>             The following are word clouds compiled from our three n-gram models. These illustrate the relative volume and substance of comments within the dataset across the four banks. <img src="http://s20.postimg.org/jw2y5oqzx/Figure_6.png" alt="Figure 6" align="right" width="350">Figure 6 shows the frequency of bigrams and trigrams found. The largest and most prevalent being “bad customer service” in orange, followed by the second largest set of frequencies in red. This second set is primarily made up of bi-grams. The prevalence of “bad customer service” or “worst customer service” hints that the majority of people taking their time to post about a certain bank are reacting to an unpleasant experience and not merely bad-mouthing the bank without cause.</p> 
+
+<p><img src="http://s20.postimg.org/sfmc3fzcd/Figure_7.png" alt="Figure 7" align="left" width="350">Figure 7 shows the unigrams displayed by our code. “Account” is fittingly the highest recorded single term, with a measurement of over 5000 occurrences. “Money”, “time”, “thank”, “don’t”, “help”, and “check” are the next highest frequency terms. This leads us to believe that when customers post or tweet about a certain bank there is a financial cause at its root, however terms such as “thank” or “time” would require a corresponding modifier to determine the meaning behind their use.</p>
+
+<p><img src="http://s20.postimg.org/gf0w2prxp/Figure_8.png" alt="Figure 8" align="right" width="350">Our final world cloud in Figure 8 is a heat map of the bi-grams created. Financial terms are again the most prevalent, with posts ranging from “worst service” and “steal money” to “thank helping” and “please help”. Only an exterior level of meaning can be ascertained by these examples, however they show that customers are most likely to post about a certain bank when feeling either satisfied or unhappy with their experience, or if they are in need of the bank’s assistance.</p>
+
+<h3>
+<a id="-further-insights" class="anchor" href="#-further-insights" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a id="further-insights" href="#further-insights"></a> Further Insights</h3>
+<p>
+    Nothing further at this time.
+</p>
+
+<h3>
+<a id="moving-forward" class="anchor" href="#moving-forward" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a id="moving-forward" href="#moving-forward"></a>Moving Forward</h3>
+<p>
+ The ultimate goal is to create an interactive application that performs the mining of data via Twitter and Facebook APIs instead of requiring a data file for input. The final application will offer options that would allow the end-user to choose a path to pursue when presented with frequency data for a particular set of data. (e.g. The option to mine Twitter for a single entity or multiple entities and whether to search for critical posts or testimonial posts). Additionally, presenting the user with output options would lend to the application being more universal for many different user-types. In the future, consideration will be given to the possibility of translating segments of the code into another coding language to improve efficiency.
+</p>
+
+</div>
+
+<p>
+</p>
       </section>
 
     </div>
